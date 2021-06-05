@@ -1,4 +1,5 @@
 REGISTRY=neohsudroid
+.DEFAULT_GOAL := help
 
 .PHONY: docker-build
 docker-build: ## docker-build: build docker image
